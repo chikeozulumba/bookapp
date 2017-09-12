@@ -1,0 +1,60 @@
+body{
+  padding-top: 50px;
+}
+#headerWrapper{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 500px;
+  background-image: url(../img/headerlogo/bkgrnd2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#logotext{
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80% 500px;
+  top: 50%;
+  margin-top: -90px;
+}
+
+.img-thumb{
+  width: 160px;
+  height: 200px;
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+#contactlog{
+  margin-right: 400px;
+}
+.table-auto{
+  width: auto;
+}
+#add-product-btn{
+  margin-top: -35px;
+}
+.saved-image img{
+  width: 200px;
+  height: auto;
+}
+#login-form{
+  width: 50%;
+  height: 60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.6);
+  margin: 8% auto;
+  padding: 15px;
+  background-color: #fff;
+
+}

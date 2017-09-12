@@ -1,0 +1,8 @@
+{
+  "require": {
+    "stripe/stripe-php": "3.*",
+    "yabacon/paystack-php": "^2.0",
+    "mabiola/paystack-php-lib" : "^1.0",
+    "guzzlehttp/guzzle": "^6.2"
+  }
+}

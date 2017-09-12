@@ -1,0 +1,246 @@
+body{
+  padding-top: 50px;
+}
+#headerWrapper{
+  position: relative;
+  padding: 0;
+  margin-top: -50px;
+  overflow: hidden;
+  height: 770px;
+  background-image: url(../img/headerlogo/bkd4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  background-position: top center;
+  background-attachment: fixed;
+}
+#text{
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 500px;
+  top: 50%;
+}
+
+.img-thumb{
+  width: 200px;
+  height: 200px;
+}
+img.details{
+    width: 33%;
+    margin: 15px auto;
+}
+/*search box*/
+#search-trigger{
+  margin-left: -1px;
+  padding-top: 18px;
+  margin-bottom: 10px;
+  padding-bottom: 38px;
+  background-color: #e4b600;
+  color: black;
+}
+.form_Q_search{
+  padding: 0px 0px 0px;
+  margin-left: 450px;
+  margin-top: 50px;
+  margin-right: -300px;
+}
+.form-search-input{
+  width: 0px;
+  height: 55px;
+  border: 0;
+  outline: 0;
+  font-size: 21px;
+  padding: 0px 0px 0px 0px;
+  color: black;
+  transition: all 0.5s;
+}
+.search-input-open{
+  width: 550px !important;
+  padding: 0px 0px 0px 20px !important;
+  display: initial !important;
+  margin-left: -320px !important;
+}
+.form-search-submit{
+  display: inline-block;
+  margin-top: 5px;
+  padding-top: 10px;
+  width: 155px;
+  height: 40px;
+  outline: 0;
+  background-color: #151515;
+  font-size: 21px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  /*margin-left: 160px;*/
+}
+#footer {
+  margin-top: 50px;
+}
+#headertext{
+  position: absolute;
+  padding-top: 70px;
+  text-c
+}
+#button1{
+  padding-top: 50px;
+}
+.totals-table-header th{
+  text-align: center;
+}
+#cart-widget td{
+  font-size: 12px;
+}
+.caption-style-4{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.caption-style-4 li{
+  float: left;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.caption-style-4 li:hover .caption{
+  opacity: 1;
+}
+
+.caption-style-4 li:hover img{
+  opacity: 1;
+  transform: scale(1.15,1.15);
+  -webkit-transform:scale(1.15,1.15);
+  -moz-transform:scale(1.15,1.15);
+  -ms-transform:scale(1.15,1.15);
+  -o-transform:scale(1.15,1.15);
+}
+
+
+.caption-style-4 img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
+}
+
+
+.caption-style-4 .caption{
+  cursor: pointer;
+  position: inherit;
+  opacity: 0;
+  -webkit-transition:all 0.45s ease-in-out;
+  -moz-transition:all 0.45s ease-in-out;
+  -o-transition:all 0.45s ease-in-out;
+  -ms-transition:all 0.45s ease-in-out;
+  transition:all 0.45s ease-in-out;
+}
+
+.caption-style-4 img{
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  -ms-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+}
+.caption-style-4 .blur{
+  background-color: rgba(0,0,0,0.65);
+  height: 300px;
+  padding-bottom: 50px;
+  width: 215px;
+  z-index: 5;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.caption-style-4 .caption-text h1{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.caption-style-4 .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: relative;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  top:100px;
+}
+
+
+/** Nav Menu */
+ul.nav-menu{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  width: 490px;
+  margin: 60px auto;
+}
+
+ul.nav-menu li{
+  display: inline;
+  margin-right: 10px;
+  padding:10px;
+  border: 1px solid #ddd;
+}
+
+ul.nav-menu li a{
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul.nav-menu li a:hover, ul.nav-menu li a.active{
+  color: #2c3e50;
+}
+
+/** content **/
+/*.content{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 700px;
+}*/
+.content h1, .content h2{
+  font-family: "Source Sans Pro",sans-serif;
+  color: #ecf0f1;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.content h1{
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.content h2{
+  font-size:26px;
+}
+
+.content p{
+  color: #ecf0f1;
+  font-family: "Lato";
+  line-height: 28px;
+  font-size: 15px;
+  padding-top: 50px;
+}
+
+p.credit{
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+p a{
+  color: #ecf0f1;
+}
+
+/** fork icon**/
+.fork{
+  position: absolute;
+  top:0px;
+  left: 0px;
+}
+
+</style>
